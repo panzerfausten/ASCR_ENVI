@@ -436,8 +436,9 @@ tv, referencia, true=1, /order
 ;tv, ASCRi, true=1, /order
 ;
 
-imagePath= "c:\imagenfinal\imagen"
-ENVI_WRITE_ENVI_FILE,[[xn1],[xn2],[xn3],[xn4]] , out_name= imagePath, NB=4, nl=ren ,ns=col
+;Descomenta esto para grabar el archivo imagen final
+;imagePath= "c:\imagenfinal\imagen"
+;ENVI_WRITE_ENVI_FILE,[[xn1],[xn2],[xn3],[xn4]] , out_name= imagePath, NB=4, nl=ren ,ns=col
 
 close,1
 
